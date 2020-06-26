@@ -26,6 +26,7 @@ var docs = {
     'he': '<p>קובע את מקומו ואת גודלו של grid-item בתוך הסריג.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'ca': '<p>Defineix la posició i la mida d\'un element en la quadrícula.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'vi': '<p>Xác định vị trí và kích thước của một đối tượng bên trong grid theo cột.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'hi': '<p>ग्रिड के भीतर ग्रिड आइटम की स्थिति और आकार निर्दिष्ट करता है।</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -54,6 +55,7 @@ var docs = {
     'he': '<p>קובע את מקומו של הgrid-item בתוך עמודות הסריג.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'ca': '<p>Defineix la posició d\'un element respecte les columnes de la quadrícula.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'vi': '<p>Xác định vị trí của một đối tượng bên trong grid theo cột.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'hi': '<p>ग्रिड कॉलम के भीतर एक ग्रिड आइटम की स्थिति को निर्दिष्ट करता है।</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -82,6 +84,7 @@ var docs = {
     'he': '<p>קובע את מיקומו הסופי של grid-item.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ca': '<p>Defineix la posició final d\'un element respecte les columnes de la quadrícula.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'vi': '<p>Xác định vị trí kết thúc của một đối tượng bên trong grid theo cột.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'hi': '<p>ग्रिड कॉलम के भीतर एक ग्रिड आइटम की अंति की स्थिति निर्दिष्ट करता है।</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-column-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -110,6 +113,7 @@ var docs = {
     'he': '<p>קובע את המיקום ההתחלתי של הgrid-item בתוך עמודות הסריג.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ca': '<p>Defineix la posició inicial d\'un element respecte les columnes de la quadrícula.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'vi': '<p>Xác định vị trí bắt đầu của một đối tượng bên trong grid theo cột.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'hi': '<p>ग्रिड कॉलम के भीतर एक ग्रिड आइटम की शुरुआत की स्थिति को निर्दिष्ट करता है।</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row': {
     'en': '<p>Specifies a grid item\'s position within the grid rows.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
@@ -138,6 +142,7 @@ var docs = {
     'he': '<p>קובע את מקומו של grid-item בתוך שורות הסריג.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'ca': '<p>Defineix la posició d\'un element respecte les files de la quadrícula.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'vi': '<p>Xác định vị trí của một đối tượng bên trong grid theo hàng.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'hi': '<p>ग्रिड रो के भीतर एक ग्रिड आइटम की स्थिति को निर्दिष्ट करता है।</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
   },
   'grid-row-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -166,6 +171,7 @@ var docs = {
     'he': '<p>קובע את המיקום הסופי של grid-item בתוך שורות הסריג.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ca': '<p>Defineix la posició final d\'un element respecte les files de la quadrícula.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'vi': '<p>Xác định vị trí kết thúc của một đối tượng bên trong grid theo hàng.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'hi': '<p>सभी ग्रिड रोज(rows) के भीतर एक ग्रिड आइटम की अंतिम स्थिति निर्दिष्ट करता है।</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -194,6 +200,7 @@ var docs = {
     'he': '<p>קובע את המיקום ההתחלתי של grid-item בתוך שורות הסריג.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ca': '<p>Defineix la posició inicial d\'un element respecte les files de la quadrícula.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'vi': '<p>Xác định vị trí bắt đầu của một đối tượng bên trong grid theo hàng.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+     'hi': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-template': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
